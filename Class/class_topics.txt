@@ -1,0 +1,10 @@
+Bit Masking
+Binary Exponential
+Modular Arithmetic
+GCD (Uclid)
+
+x * y = gcd(x,y) * lcm(x,y)
+
+
+c function:
+    memset

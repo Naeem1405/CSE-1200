@@ -1,8 +1,0 @@
-11. Playlist
-    https://cses.fi/problemset/task/1141
-
-16. Finding a Word
-
-20. Palindrome Reorder
-    https://cses.fi/problemset/task/1755
-    

@@ -1,0 +1,27 @@
+11. Playlist
+    https://cses.fi/problemset/task/1141
+
+20. Palindrome Reorder
+    https://cses.fi/problemset/task/1755
+    
+22. Palindromic Numbers
+    https://codeforces.com/problemset/problem/1700/B
+
+23. Creating Strings
+    https://cses.fi/problemset/task/1622
+
+24. F
+
+36. Large Division
+    https://lightoj.com/problem/large-division
+
+37. Term of use | Aizu Online Judge
+    ??
+
+38. GCD 
+    https://atcoder.jp/contests/abc125/tasks/abc125_c
+
+40. LCM
+    https://onlinejudge.u-aizu.ac.jp/courses/library/6/NTL/1/NTL_1_C
+
+41->
