@@ -1,33 +1,24 @@
+// https://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=ITP1_9_A
 #include<bits/stdc++.h>
 using namespace std;
 
-int ans(string text, string word){
-    int c = 0;
-    for(int i = 0; i < text.size() ;  ){
-        string s = "";
-        while(text[i] != ' ' && i < text.size()){
-            s+= tolower(text[i]);
-            i++;
-        }
-        if( s == word){
-            c++;
-        }
-        while(text[i] == ' ' && i < text.size()){
-        i++;
-        }
-    }
-    return c;
-}
-
 int main(){
-    string word, text;
-    cin >> word;
+    string w;
+    cin >> w;
     cin.ignore();
-    getline(cin, text, '\n');
+    vector<string> t;
+    string s;
     int count = 0;
-    while(text != "END_OF_TEXT"){
-        count += ans(text, word);
-        getline(cin, text, '\n');
+    while(cin >> s && s != "END_OF_TEXT"){
+        t.push_back(s);
+    }
+    for(string a:t){
+        for(int i = 0; i < a.size(); i++){
+            a[i] = tolower(a[i]);
+        }
+        if( a == w){
+            count++;
+        }
     }
     cout << count << "\n";
 }
